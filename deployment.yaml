@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: student-event
-          image: kaniha4/student-event-registration:v1
+          image: kaniha4/student-event-registration:v2
           ports:
             - containerPort: 80
 ---
