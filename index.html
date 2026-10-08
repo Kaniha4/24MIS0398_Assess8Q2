@@ -1,0 +1,61 @@
+```html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Event Registration</title>
+    <style>
+        body {
+            font-family: Arial;
+            background-color: #f0f4f8;
+            text-align: center;
+            padding: 30px;
+        }
+
+        .container {
+            background-color: white;
+            max-width: 500px;
+            margin: auto;
+            padding: 25px;
+            border-radius: 10px;
+        }
+
+        h1 {
+            color: #234e70;
+        }
+
+        input, button {
+            width: 90%;
+            padding: 10px;
+            margin: 8px;
+            box-sizing: border-box;
+        }
+
+        button {
+            background-color: #234e70;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>TechFest 2026</h1>
+        <p>Join us for a student technology event featuring innovation,
+        coding, and exciting technical activities.</p>
+
+        <h2>Student Registration</h2>
+
+        <form onsubmit="alert('Registration submitted successfully!'); return false;">
+            <input type="text" placeholder="Student Name" required>
+            <input type="text" placeholder="Register Number" required>
+            <input type="text" placeholder="Department" required>
+            <input type="email" placeholder="Email Address" required>
+            <label for="eventDate">Event Date</label>
+            <input type="date" id="eventDate" required>
+            <button type="submit">Register Now</button>
+        </form>
+    </div>
+</body>
+</html>
+```
